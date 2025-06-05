@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taste Trails by [Your Name]</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff5c5c;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ff9e80;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #e65100;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .about {
+      background-color: #fff3e0;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background-color: #ff5c5c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>name</h1>
-    <p>hello</p>
+
+  <header>
+    <h1>Taste Trails by Dinesh</h1>
+    <p>Exploring flavors, one bite at a time 🍜</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Me</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section class="about">
+      <h2 class="section-title">About Me</h2>
+      <p>Hi! I'm Dinesh, a passionate food vlogger from Chennai. I travel, taste, and talk about unique street food, hidden gems, and traditional South Indian dishes. Subscribe to join my food journey!</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Food Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Delicious Pizza">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="South Indian Meals">
+        <img src="https://images.unsplash.com/photo-1613145998571-b9c5b2f96ec5" alt="Spicy Biryani">
+        <img src="https://images.unsplash.com/photo-1564758560611-84bfc51fbc5e" alt="Street Food">
+        <img src="https://images.unsplash.com/photo-1617191513003-3e03b4d8a4a2" alt="Dosa and Chutney">
+        <img src="https://images.unsplash.com/photo-1589927986089-35812388d1a3" alt="Tandoori Chicken">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Taste Trails by Dinesh. All rights reserved.
+  </footer>
+
 </body>
 </html>
